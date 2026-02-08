@@ -1,5 +1,5 @@
 // ============================================================
-// Core domain types for the CryptoInvest platform
+// Core domain types for the VaultStone platform
 // ============================================================
 
 export interface User {

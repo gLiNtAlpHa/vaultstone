@@ -16,8 +16,8 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "CryptoInvest — Invest Cryptocurrency into Real Estate",
-    template: "%s | CryptoInvest",
+    default: "VaultStone — Invest Cryptocurrency into Real Estate",
+    template: "%s | VaultStone",
   },
   description:
     "Invest cryptocurrency into real estate development with blockchain transparency, smart contracts, and secure wallets.",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Reset Password",
-  description: "Set a new password for your CryptoInvest account.",
+  description: "Set a new password for your VaultStone account.",
 };
 
 export default function ResetPasswordPage() {

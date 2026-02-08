@@ -1,4 +1,4 @@
-export const SITE_NAME = "CryptoInvest";
+export const SITE_NAME = "VaultStone";
 export const SITE_DESCRIPTION =
   "Invest cryptocurrency into real estate development with blockchain transparency, smart contracts, and secure wallets.";
 

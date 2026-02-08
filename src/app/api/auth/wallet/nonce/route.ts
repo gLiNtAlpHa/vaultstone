@@ -33,7 +33,7 @@ export async function GET(request: NextRequest) {
       },
     });
 
-    const message = `Sign this message to authenticate with CryptoInvest.\n\nNonce: ${nonce}`;
+    const message = `Sign this message to authenticate with VaultStone.\n\nNonce: ${nonce}`;
 
     return Response.json({
       success: true,

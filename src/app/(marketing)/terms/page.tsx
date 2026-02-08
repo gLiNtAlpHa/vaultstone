@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "CryptoInvest terms of service and user agreement.",
+  description: "VaultStone terms of service and user agreement.",
 };
 
 export default function TermsPage() {

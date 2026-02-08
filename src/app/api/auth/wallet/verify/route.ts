@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Verify the signature
-    const message = `Sign this message to authenticate with CryptoInvest.\n\nNonce: ${walletNonce.nonce}`;
+    const message = `Sign this message to authenticate with VaultStone.\n\nNonce: ${walletNonce.nonce}`;
     let recoveredAddress: string;
 
     try {
@@ -66,7 +66,7 @@ export async function POST(request: NextRequest) {
     if (!user) {
       user = await prisma.user.create({
         data: {
-          email: `${address}@wallet.cryptoinvest`,
+          email: `${address}@wallet.VaultStone`,
           walletAddress: address,
           emailVerified: new Date(),
           status: "active",

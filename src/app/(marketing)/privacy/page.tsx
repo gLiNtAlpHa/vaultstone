@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "CryptoInvest privacy policy and data protection practices.",
+  description: "VaultStone privacy policy and data protection practices.",
 };
 
 export default function PrivacyPage() {

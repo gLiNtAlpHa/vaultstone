@@ -10,8 +10,8 @@ const transporter = createTransport({
   },
 });
 
-const from = process.env.EMAIL_FROM || "noreply@cryptoinvest.com";
-const appName = process.env.NEXT_PUBLIC_APP_NAME || "CryptoInvest";
+const from = process.env.EMAIL_FROM || "noreply@vaultstonecap.com";
+const appName = process.env.NEXT_PUBLIC_APP_NAME || "VaultStone";
 const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 
 async function sendMail(to: string, subject: string, html: string) {

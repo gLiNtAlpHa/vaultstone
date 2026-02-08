@@ -28,7 +28,7 @@ export function FeaturesSection() {
     <section className="bg-white py-20 sm:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeading
-          title="Why CryptoInvest?"
+          title="Why VaultStone?"
           subtitle="Built on proven technology trusted by enterprises worldwide"
         />
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

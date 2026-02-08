@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Create Account",
-  description: "Create your CryptoInvest account and start investing in real estate.",
+  description: "Create your VaultStone account and start investing in real estate.",
 };
 
 export default function RegisterPage() {

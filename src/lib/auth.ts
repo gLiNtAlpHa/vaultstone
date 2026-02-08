@@ -112,8 +112,8 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       return token;
     },
     async session({ session, token }) {
-      session.user.id = token.id;
-      session.user.walletAddress = token.walletAddress;
+      session.user.id = token.id as string;
+      session.user.walletAddress = token.walletAddress as string | null;
       return session;
     },
   },
